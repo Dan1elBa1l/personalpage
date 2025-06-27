@@ -1,47 +1,36 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Daniel Bail - Personal Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Mein persönliches Portfolio, entwickelt mit Next.js, TypeScript und Tailwind CSS.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## 🚀 Features
 
-# Features
+- Responsive Design
+- Dark/Light Mode
+- Deutsche Lokalisierung
+- Interaktive Komponenten
+- Markdown-Unterstützung
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## 🛠️ Tech Stack
 
-# Getting Started Locally
+- **Framework:** Next.js 14
+- **Sprache:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
 
-1. Clone this repository to your local machine:
+## 📦 Installation
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+```bash
+npm install
+npm run dev
+```
 
-2. Move to the cloned directory
+## 🌐 Live Demo
 
-   ```bash
-   cd portfolio
-   ```
+[Portfolio Website](http://localhost:3000)
 
-3. Install dependencies:
+## 📧 Kontakt
 
-   ```bash
-   pnpm install
-   ```
-
-4. Start the local Server:
-
-   ```bash
-   pnpm dev
-   ```
-
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+- **LinkedIn:** [Daniel Bail](https://www.linkedin.com/in/daniel-bail-431268198/)
+- **GitHub:** [@Dan1elBa1l](https://github.com/Dan1elBa1l)
+- **Email:** bail.daniel@aol.com
