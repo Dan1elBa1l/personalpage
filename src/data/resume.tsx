@@ -76,7 +76,7 @@ export const DATA = {
 - Erstellung und Gestaltung von Präsentationen für wiederkehrende Reportings der Internal Audit Funktion an interne Komitees`,
     },
     {
-      company: "PricewaterhouseCoopers",
+      company: "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
       href: "https://www.pwc.de",
       badges: [],
       location: "Berlin",
@@ -93,7 +93,7 @@ export const DATA = {
 - Anforderung von Stichproben und Prüfung ihrer Nachvollziehbarkeit`,
     },
     {
-      company: "Deutsche Kreditbank",
+      company: "DKB Service GmbH",
       href: "https://www.dkb.de",
       badges: [],
       location: "Berlin",
