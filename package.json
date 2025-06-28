@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "postbuild": "node copy-images.js"
+    "postbuild": "mkdir -p out/personalpage && cp out/*.png out/personalpage/"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.6",
