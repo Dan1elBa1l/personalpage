@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  basePath: '/personalpage',
 };
 
 export default nextConfig;
