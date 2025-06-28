@@ -11,7 +11,7 @@ export const DATA = {
     "Wirtschaftsinformatik-Student mit Schwerpunkt IT-Projektmanagement und Finanzdienstleistungen",
   summary:
     "Aktuell bin ich Wirtschaftsinformatikstudent an der Hochschule für Technik und Wirtschaft Berlin mit praktischer Erfahrung in IT, Audit und Finanzen.",
-  avatarUrl: "/personalpage/me.png",
+  avatarUrl: "/me.png",
   skills: [
     "Java",
     "SQL", 
@@ -62,7 +62,7 @@ export const DATA = {
       badges: [],
       location: "Berlin",
       title: "Werkstudent Internal Audit",
-      logoUrl: "/personalpage/scalable.png",
+      logoUrl: "/scalable.png",
       start: "November 2024",
       end: "Bis Heute",
       description:
@@ -79,7 +79,7 @@ export const DATA = {
       badges: [],
       location: "Berlin",
       title: "Praktikant - IT-gestützte Geschäftsprozesse",
-      logoUrl: "/personalpage/pwc.png",
+      logoUrl: "/pwc.png",
       start: "Mai 2024",
       end: "September 2024",
       description:
@@ -96,7 +96,7 @@ export const DATA = {
       badges: [],
       location: "Berlin",
       title: "Werkstudent IT-Projektmanagement",
-      logoUrl: "/personalpage/dkb.png",
+      logoUrl: "/dkb.png",
       start: "September 2022",
       end: "April 2024",
       description:
@@ -113,7 +113,7 @@ export const DATA = {
       school: "Hochschule für Technik und Wirtschaft Berlin",
       href: "https://www.htw-berlin.de",
       degree: "B.Sc. Wirtschaftsinformatik",
-      logoUrl: "/personalpage/htw.png",
+      logoUrl: "/htw.png",
       start: "Oktober 2021",
       end: "Bis Heute",
     },
@@ -121,7 +121,7 @@ export const DATA = {
       school: "Presse-Grosso Südwest GmbH & Co. KG",
       href: "https://www.pgsw.de",
       degree: "Ausbildung zum Kaufmann für Groß- & Außenhandel",
-      logoUrl: "/personalpage/pgsw.png",
+      logoUrl: "/pgsw.png",
       start: "September 2019",
       end: "Mai 2021",
     },
@@ -129,7 +129,7 @@ export const DATA = {
       school: "Julius-Springer-Schule Heidelberg",
       href: "https://www.jss-heidelberg.de",
       degree: "Kaufmännische Fachhochschulreife",
-      logoUrl: "/personalpage/jss.png",
+      logoUrl: "/jss.png",
       start: "September 2017",
       end: "Juli 2018",
     },
