@@ -68,3 +68,4 @@ npm run build
 - **GitHub:** [@Dan1elBa1l](https://github.com/Dan1elBa1l)
 - **Email:** bail.daniel@aol.com
 # trigger build
+# Updated for GitHub Pages
