@@ -8,7 +8,7 @@ Mein persönliches Portfolio, entwickelt mit Next.js, TypeScript und Tailwind CS
 - Dark/Light Mode
 - Deutsche Lokalisierung
 - Interaktive Komponenten
-- Markdown-Unterstützung
+- Moderne UI mit shadcn/ui
 
 ## 🛠️ Tech Stack
 
@@ -17,6 +17,7 @@ Mein persönliches Portfolio, entwickelt mit Next.js, TypeScript und Tailwind CS
 - **Styling:** Tailwind CSS
 - **UI Components:** shadcn/ui
 - **Icons:** Lucide React
+- **Animationen:** Framer Motion
 
 ## 📦 Installation
 
