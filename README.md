@@ -1,71 +1,68 @@
-# Daniel Bail - Personal Portfolio
+# Daniel Bail – Persönliche Portfolio-Seite
 
-Mein persönliches Portfolio, entwickelt mit Next.js, TypeScript und Tailwind CSS.
+[➡️ Live ansehen](https://dan1elba1l.github.io/personalpage/)
 
-## 🚀 Features
+## Über das Projekt
 
-- Responsive Design
-- Dark/Light Mode
-- Deutsche Lokalisierung
-- Interaktive Komponenten
-- Moderne UI mit shadcn/ui
+Dies ist das persönliche Portfolio von Daniel Bail, entwickelt mit **Next.js 14**, **Tailwind CSS** und modernen UI-Komponenten. Die Seite ist als statische Website gebaut und wird automatisch mit **GitHub Actions** auf **GitHub Pages** veröffentlicht.
 
-## 🛠️ Tech Stack
+## Features
 
-- **Framework:** Next.js 14
-- **Sprache:** TypeScript
-- **Styling:** Tailwind CSS
-- **UI Components:** shadcn/ui
-- **Icons:** Lucide React
-- **Animationen:** Framer Motion
+- **Modernes, responsives Design**
+- **Dark/Light Mode**
+- **Animierte Komponenten** (MagicUI, Framer Motion)
+- **Berufserfahrung, Ausbildung, Projekte** übersichtlich dargestellt
+- **Dock-Navigation** am unteren Bildschirmrand
+- **Automatisches Deployment** via GitHub Actions
+- **Optimiertes Bildhandling** für GitHub Pages
 
-## 📦 Installation
+## Technologie-Stack
+
+- [Next.js](https://nextjs.org/) (App Router, statischer Export)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/) Komponenten
+- [MagicUI](https://magicui.design/) für Animationen
+- [Framer Motion](https://www.framer.com/motion/)
+- [GitHub Actions](https://github.com/features/actions) für CI/CD
+
+## Live-Demo
+
+👉 **[Portfolio live ansehen](https://dan1elba1l.github.io/personalpage/)**
+
+## Deployment auf GitHub Pages
+
+- Die Seite wird automatisch bei jedem Push auf den `main`-Branch gebaut und veröffentlicht.
+- Die Veröffentlichungsquelle ist **GitHub Actions** (nicht gh-pages-Branch!).
+- Die Seite läuft unter dem Unterverzeichnis `/personalpage/`.
+
+### Wichtige Hinweise für GitHub Pages
+
+- In der `next.config.mjs` sind `basePath` und `assetPrefix` auf `/personalpage` gesetzt:
+  ```js
+  basePath: '/personalpage',
+  assetPrefix: '/personalpage',
+  ```
+- Bildpfade werden dynamisch mit der Umgebungsvariable `NEXT_PUBLIC_BASE_PATH` gesetzt (siehe `.env.production`).
+- Nach dem Build werden alle Bilder automatisch ins richtige Verzeichnis kopiert.
+
+## Lokale Entwicklung
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 🚀 Deployment auf GitHub Pages
-
-### Automatisches Deployment (Empfohlen)
-
-1. **Repository auf GitHub erstellen:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/DEIN_USERNAME/personalpage.git
-   git push -u origin main
-   ```
-
-2. **GitHub Pages aktivieren:**
-   - Gehe zu deinem Repository auf GitHub
-   - Klicke auf "Settings" → "Pages"
-   - Wähle "Deploy from a branch" aus
-   - Wähle "gh-pages" Branch und "/(root)" Ordner
-   - Klicke "Save"
-
-3. **Automatisches Deployment:**
-   - Bei jedem Push auf den `main` Branch wird automatisch auf GitHub Pages deployed
-   - Der GitHub Actions Workflow (`.github/workflows/deploy.yml`) übernimmt das Deployment
-
-### Manuelles Deployment
+## Statischer Export & Testen
 
 ```bash
 npm run build
-# Der statische Export wird im /out Ordner erstellt
+npx serve out
 ```
 
-## 🌐 Live Demo
+## Anpassung der Seitenbreite
 
-[Portfolio Website](http://localhost:3000)
+Die maximale Breite der Seite ist in `src/app/layout.tsx` über die Tailwind-Klasse `max-w-4xl` gesetzt. Für eine breitere Seite kann dies auf `max-w-5xl`, `max-w-6xl` oder `max-w-7xl` angepasst werden.
 
-## 📧 Kontakt
+## Lizenz
 
-- **LinkedIn:** [Daniel Bail](https://www.linkedin.com/in/daniel-bail-431268198/)
-- **GitHub:** [@Dan1elBa1l](https://github.com/Dan1elBa1l)
-- **Email:** bail.daniel@aol.com
-# trigger build
-# Updated for GitHub Pages
+MIT
