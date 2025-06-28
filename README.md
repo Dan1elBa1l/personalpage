@@ -67,3 +67,4 @@ npm run build
 - **LinkedIn:** [Daniel Bail](https://www.linkedin.com/in/daniel-bail-431268198/)
 - **GitHub:** [@Dan1elBa1l](https://github.com/Dan1elBa1l)
 - **Email:** bail.daniel@aol.com
+# trigger build
