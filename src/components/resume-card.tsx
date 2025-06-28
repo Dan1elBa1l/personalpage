@@ -17,7 +17,7 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: string | string[];
+  description?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -97,17 +97,9 @@ export const ResumeCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm text-foreground"
+              className="mt-2 text-xs sm:text-sm text-foreground whitespace-pre-line"
             >
-              {Array.isArray(description) ? (
-                <ul className="list-disc pl-5">
-                  {description.map((item, idx) => (
-                    <li key={idx}>{item}</li>
-                  ))}
-                </ul>
-              ) : (
-                <span className="whitespace-pre-line">{description}</span>
-              )}
+              {description}
             </motion.div>
           )}
         </div>

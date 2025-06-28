@@ -67,14 +67,13 @@ export const DATA = {
       logoUrl: `${basePath}/scalable.png`,
       start: "November 2024",
       end: "Bis Heute",
-      description: [
-        "Unterstützung und Durchführung einer Qualitätsprüfung der Internen Revision im Rahmen der Global Internal Audit Standards (GIAS) des Institute of Internal Auditors (IIA)",
-        "Mitwirkung bei der strategischen Planung und Konzeption zur Einführung eines Systems zur kontinuierlichen Prüfung (Continuous Audit)",
-        "Unterstützung bei diversen Prüfungen in unterschiedlichen Prüffeldern und Unternehmensbereichen",
-        "Recherche und Analyse zur Prüfung neuer Prüffelder unter Berücksichtigung regulatorischer Anforderungen und potenzieller Risiken",
-        "Dokumentation von Arbeitsergebnissen zur Sicherstellung von Transparenz und Nachvollziehbarkeit der durchgeführten Aufgaben",
-        "Erstellung und Gestaltung von Präsentationen für wiederkehrende Reportings der Internal Audit Funktion an interne Komitees"
-      ],
+      description:
+        `• Unterstützung und Durchführung einer Qualitätsprüfung der Internen Revision im Rahmen der Global Internal Audit Standards (GIAS) des Institute of Internal Auditors (IIA)
+• Mitwirkung bei der strategischen Planung und Konzeption zur Einführung eines Systems zur kontinuierlichen Prüfung (Continuous Audit)
+• Unterstützung bei diversen Prüfungen in unterschiedlichen Prüffeldern und Unternehmensbereichen
+• Recherche und Analyse zur Prüfung neuer Prüffelder unter Berücksichtigung regulatorischer Anforderungen und potenzieller Risiken
+• Dokumentation von Arbeitsergebnissen zur Sicherstellung von Transparenz und Nachvollziehbarkeit der durchgeführten Aufgaben
+• Erstellung und Gestaltung von Präsentationen für wiederkehrende Reportings der Internal Audit Funktion an interne Komitees`,
     },
     {
       company: "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
@@ -85,14 +84,13 @@ export const DATA = {
       logoUrl: `${basePath}/pwc.png`,
       start: "Mai 2024",
       end: "September 2024",
-      description: [
-        "Überprüfung der Wirksamkeit von IT-Kontrollsystemen anhand festgelegter Prüfungsanforderungen",
-        "Analyse und Bewertung von IT-gestützten Geschäftsprozessen, einschließlich Risikobewertung",
-        "Überprüfung der Einhaltung von IT-Richtlinien im Rahmen von Jahresabschlussprüfungen, einschließlich den Anforderungen gemäß BAIT und MaRisk",
-        "Erstellung von Prüfungsdokumenten zur Gewährleistung der Nachvollziehbarkeit",
-        "Teilnahme an Interviews mit Mandanten, Anforderung und Prüfung relevanter Dokumente und Nachweise",
-        "Anforderung von Stichproben und Prüfung ihrer Nachvollziehbarkeit"
-      ],
+      description:
+        `• Überprüfung der Wirksamkeit von IT-Kontrollsystemen anhand festgelegter Prüfungsanforderungen
+• Analyse und Bewertung von IT-gestützten Geschäftsprozessen, einschließlich Risikobewertung
+• Überprüfung der Einhaltung von IT-Richtlinien im Rahmen von Jahresabschlussprüfungen, einschließlich den Anforderungen gemäß BAIT und MaRisk
+• Erstellung von Prüfungsdokumenten zur Gewährleistung der Nachvollziehbarkeit
+• Teilnahme an Interviews mit Mandanten, Anforderung und Prüfung relevanter Dokumente und Nachweise
+• Anforderung von Stichproben und Prüfung ihrer Nachvollziehbarkeit`,
     },
     {
       company: "DKB Service GmbH",
@@ -103,14 +101,13 @@ export const DATA = {
       logoUrl: `${basePath}/dkb.png`,
       start: "September 2022",
       end: "April 2024",
-      description: [
-        "Onboarding, Berechtigungsmanagement und Einführung von internen Mitarbeiter*innen in neue Systeme und Prozesse",
-        "Onboarding und Berechtigungsmanagement von externen Berater*innen",
-        "Dokumentation von Prozessen und Arbeitsabläufen für interne sowie externe Mitarbeiter*innen",
-        "Durchführung von Tests neuer Anwendungsversionen zur Qualitätssicherung und Fehleranalyse",
-        "Erstellung und Pflege von Dashboards, Tickets und Seiten in Confluence, ITSM und Jira zur Unterstützung des Projektmanagements",
-        "Beantragung und Verwaltung von Berechtigungen in IGI (Identitäts- und Berechtigungsmanagement)"
-      ],
+      description:
+        `• Onboarding, Berechtigungsmanagement und Einführung von internen Mitarbeiter*innen in neue Systeme und Prozesse
+• Onboarding und Berechtigungsmanagement von externen Berater*innen
+• Dokumentation von Prozessen und Arbeitsabläufen für interne sowie externe Mitarbeiter*innen
+• Durchführung von Tests neuer Anwendungsversionen zur Qualitätssicherung und Fehleranalyse
+• Erstellung und Pflege von Dashboards, Tickets und Seiten in Confluence, ITSM und Jira zur Unterstützung des Projektmanagements
+• Beantragung und Verwaltung von Berechtigungen in IGI (Identitäts- und Berechtigungsmanagement)`,
     },
   ],
   education: [
